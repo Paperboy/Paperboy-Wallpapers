@@ -60,10 +60,10 @@ width: 760px
 }
 #outer_wrapper {
 margin: 0 auto;
-background: #1d1415 url(/img/repeatbg.jpg) repeat-y
+background: #1d1415 url(../img/repeatbg.jpg) repeat-y
 }
 #wrapper {
-background: url(/img/mainbg.jpg) no-repeat 0 -50px
+background: url(../img/mainbg.jpg) no-repeat 0 -50px
 }
 #header {
 height: 193px;
@@ -242,7 +242,7 @@ border-right: 1px solid #666;
 border-bottom: 1px solid #999;
 margin: 5px 20px;
 padding: 3px;
-/* background: url(/img/quote.gif) no-repeat top left */
+/* background: url(../img/quote.gif) no-repeat top left */
 }
 #content blockquote p {
 margin: 2px 5px
@@ -290,7 +290,7 @@ text-align: center
 width: 150px;
 padding: 5px 0 7px;
 border-bottom: 10px solid #1d1415;
-background: #7b7776 url(/img/mainbg.jpg) no-repeat -580px -283px
+background: #7b7776 url(../img/mainbg.jpg) no-repeat -580px -283px
 }
 .rightmenu {
 width: 150px;
@@ -301,7 +301,7 @@ border-bottom: 10px solid #1d1415
 .rightmenu2 {
 width: 150px;
 padding: 5px 0 7px;
-background: #7b7776 url(/img/repeatbg.jpg) no-repeat bottom right
+background: #7b7776 url(../img/repeatbg.jpg) no-repeat bottom right
 }
 #left a, #right a {
 font-weight: normal
@@ -360,14 +360,14 @@ width: 380px;
 border-bottom: 10px solid #1d1415;
 margin: 0 10px 0;
 padding: 5px 0 10px;
-background: #9b9898 url(/img/pbcommentbg.gif)
+background: #9b9898 url(../img/pbcommentbg.gif)
 }
 .pbcomment {
 width: 380px;
 border-bottom: 10px solid #1d1415;
 margin: 0 10px 0;
 padding: 5px 0 10px;
-background: #797676 url(/img/commentbg.gif)
+background: #797676 url(../img/commentbg.gif)
 }
 .comments_invite, .clear {
 clear: both
@@ -381,7 +381,7 @@ height: 38px;
 padding-top: 12px;
 margin: 0;
 clear: both;
-background: url(/img/mainbg.jpg) no-repeat top left
+background: url(../img/mainbg.jpg) no-repeat top left
 }
 #footer ul {
 padding: 0 140px 0 0;
@@ -412,7 +412,7 @@ margin: 8px 0
 }
 #cpreview .comment, #cpreview .pbcomment {
 margin: 6px 0;
-background: #9b9898 url(/img/preview.jpg) no-repeat center;
+background: #9b9898 url(../img/preview.jpg) no-repeat center;
 border-top: 10px solid #000;
 border-bottom: 10px solid #000
 }
