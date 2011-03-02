@@ -165,7 +165,7 @@ function gcdCalc(a, b) {
         //_gaq.push(['_trackEvent', 'Walls', 'Downloaded', url.substring(url.lastIndexOf('/')+1)]);
     });
 
-    console.log(match); // 1920x1080
+    console.log(match); // My res
     console.log(aspect);
 
 })();
