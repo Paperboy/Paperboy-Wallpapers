@@ -4,7 +4,7 @@
      height = screen.height,
      gcd = gcdCalc(width,height),
      aspect = (width / gcd) + ':' + (height / gcd),
-     pixels = width x height,
+     pixels = width * height,
      screenSize = width + 'x' + height,
  // hardcoded :( aspect ratios, pixels and sizes available in wallpapers
      sizes = {
@@ -14,7 +14,7 @@
       '16:9' : {1049088: '1366x768', 2073600: '1920x1080'}
      },
  // get elements and set attributes
-     wallpapers = documet.getElementById('wallpapers'),
+     wallpapers = document.getElementById('wallpapers'),
      wallpaperLinks = wallpapers.find('dd a'),
      matchedSize = {'style' : 'font-weight:bold', 'title' : 'This is your current screen resolution'},
      scaledSize = {'style' : 'font-weight:bold', 'title' : 'This size should scale down nicely on your screen'};
